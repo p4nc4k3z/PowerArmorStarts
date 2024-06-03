@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "power_armor_starts",
+    "name": "Power Armor Starts",
+    "authors": [ "Facetank" ],
+    "description": "Adds starting scenarios and professions which include power armor.  Disable to preserve the joy of beating the odds to find it naturally.",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]

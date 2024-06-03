@@ -1,0 +1,19 @@
+[
+  {
+    "type": "scenario",
+    "id": "powerarmor",
+    "name": "Power Armor in a Field",
+    "description": "You've somehow managed to stumble upon a pristine set of military-grade power armor, and it even fits!",
+    "flags": [ "LONE_START" ],
+    "points": 0,
+    "start_name": "Field",
+    "allowed_locs": [ "sloc_field" ],
+    "professions": [ "powerarmor_heavy","powerarmor_basic","powerarmor_light" ]
+  },
+  {
+      "type": "scenario",
+      "copy-from": "overrun",
+      "id": "overrun",
+      "extend": { "professions": [ "powerarmor_soldier_heavy","powerarmor_soldier_basic","powerarmor_soldier_light" ] }
+  }
+]

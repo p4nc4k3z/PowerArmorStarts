@@ -1,0 +1,184 @@
+[
+  {
+    "type": "profession",
+    "id": "powerarmor_heavy",
+    "name": "Power Armor Mk.I Joyride",
+    "description": "You've stripped down to your skivvies to slip into an abandoned set of heavy power armor.  But now you've misplaced your stuff, and you notice the tank's almost empty.  There probably was a good reason this thing was abandoned in the first place.",
+    "points": 2,
+    "items": {
+      "both": {
+        "items": [
+          "power_armor_heavy",
+          "power_armor_helmet_heavy",
+          "power_armor_frame"
+        ],
+        "entries": [
+          { "item": "power_armor_generator", "charges": 1000 }
+        ]
+      }
+    }
+  },
+  {
+    "type": "profession",
+    "id": "powerarmor_basic",
+    "name": "Power Armor Mk.II Joyride",
+    "description": "You've stripped down to your skivvies to slip into an abandoned set of second-wave power armor.  You've misplaced your stuff, and the battery's running low, but there's enough gas in the tank left to keep you moving for a while.",
+    "points": 4,
+    "items": {
+      "both": {
+        "items": [
+          "power_armor_basic",
+          "power_armor_helmet_basic",
+          "power_armor_frame"
+        ],
+        "entries": [
+          { "item": "power_armor_generator", "charges": 5000 },
+          { "item": "UPS_off", "charges": 250 }
+        ]
+      }
+    }
+  },
+  {
+    "type": "profession",
+    "id": "powerarmor_light",
+    "name": "Power Armor Mk.III Joyride",
+    "description": "You've stripped down to your skivvies to slip into a miraculously-abandoned set of cutting-edge lightweight power armor.  It's even got a full battery and a tank of gas in the generator.  You can't believe your luck.",
+    "points": 6,
+    "items": {
+      "both": {
+        "items": [
+          "power_armor_light",
+          "power_armor_helmet_light",
+          "power_armor_frame"
+        ],
+        "entries": [
+          { "item": "power_armor_generator", "charges": 10000 },
+          { "item": "UPS_off", "charges": 1250 }
+        ]
+      }
+    }
+  },
+  {
+    "type": "profession",
+    "id": "powerarmor_soldier_heavy",
+    "name": "Exosuit Mk.I Pilot",
+    "description": "You've been trained in the use of military combat exoskeletons, and took the opportunity in the chaos to slip into one of the old tank suits.  It's heavy as shit, but nothing's getting through it... right?",
+    "points": 6,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_spotting" ],
+    "CBMs": [ "bio_power_storage_mkII", "bio_power_armor_interface_mkII" ],
+    "skills": [
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "melee" },
+      { "level": 1, "name": "rifle" },
+      { "level": 1, "name": "stabbing" },
+      { "level": 1, "name": "dodge" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "power_armor_heavy",
+          "power_armor_helmet_heavy",
+          "power_armor_frame",
+          "grenade",
+          "grenade"
+        ],
+        "entries": [
+          { "item": "power_armor_generator", "charges": 10000 },
+          { "item": "UPS_off", "charges": 1250 },
+          { "item": "stanag60", "charges": 60 },
+          { "item": "stanag60", "charges": 60 },
+          {
+            "item": "m27_assault_rifle",
+            "variant": "h&k416a5",
+            "ammo-item": "556",
+            "charges": 30,
+            "contents-item": [ "acog_scope" ],
+            "custom-flags": [ "auto_wield" ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "profession",
+    "id": "powerarmor_soldier_basic",
+    "name": "Exosuit Mk.II Pilot",
+    "description": "You've been trained in the use of military combat exoskeletons, and took the opportunity in the chaos to slip into one of the second-generation rigs.",
+    "points": 7,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_spotting" ],
+    "CBMs": [ "bio_power_storage_mkII", "bio_power_armor_interface_mkII" ],
+    "skills": [
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "melee" },
+      { "level": 1, "name": "rifle" },
+      { "level": 1, "name": "stabbing" },
+      { "level": 1, "name": "dodge" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "power_armor_basic",
+          "power_armor_helmet_basic",
+          "power_armor_frame",
+          "grenade",
+          "grenade"
+        ],
+        "entries": [
+          { "item": "power_armor_generator", "charges": 10000 },
+          { "item": "UPS_off", "charges": 1250 },
+          { "item": "stanag60", "charges": 60 },
+          { "item": "stanag60", "charges": 60 },
+          {
+            "item": "m27_assault_rifle",
+            "variant": "h&k416a5",
+            "ammo-item": "556",
+            "charges": 30,
+            "contents-item": [ "acog_scope" ],
+            "custom-flags": [ "auto_wield" ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "profession",
+    "id": "powerarmor_soldier_light",
+    "name": "Exosuit Mk.III Pilot",
+    "description": "You've been trained in the use of military combat exoskeletons, and took the opportunity in the chaos to slip into the best set you could find.",
+    "points": 8,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_spotting" ],
+    "CBMs": [ "bio_power_storage_mkII", "bio_power_armor_interface_mkII" ],
+    "skills": [
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "melee" },
+      { "level": 1, "name": "rifle" },
+      { "level": 1, "name": "stabbing" },
+      { "level": 1, "name": "dodge" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "power_armor_light",
+          "power_armor_helmet_light",
+          "power_armor_frame",
+          "grenade",
+          "grenade"
+        ],
+        "entries": [
+          { "item": "power_armor_generator", "charges": 10000 },
+          { "item": "UPS_off", "charges": 1250 },
+          { "item": "stanag60", "charges": 60 },
+          { "item": "stanag60", "charges": 60 },
+          {
+            "item": "m27_assault_rifle",
+            "variant": "h&k416a5",
+            "ammo-item": "556",
+            "charges": 30,
+            "contents-item": [ "acog_scope" ],
+            "custom-flags": [ "auto_wield" ]
+          }
+        ]
+      }
+    }
+  }  
+]
